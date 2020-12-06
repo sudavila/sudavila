@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*
+
+   SUD Landscaping
+   Author: Santos Davila    
+   Date: 10/20/2020
+   
+   Filename: sp_patioslayout.css
+
+*/
+/* Style the header */
+
+header>h1 {
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: lightslategray;
+}
+
+header>h2 {
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: gold;
+}
+
+/* Window and Body Styles */
+html {
+    height: 100%;
+}
+body {
+    width: 100%;
+    min-width: 640px;
+    max-width: 960px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+ul,
+nav,
+li,
+a {
+    box-sizing: border-box;
+}
+
+
+/* Row Styles */
+
+.row {
+    clear: both;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
+/* Page Header Styles */
+
+header>img {
+    display: block;
+    width: 100%;
+    float: center;
+}
+
+header nav {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
+
+header nav ul a {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+
+
+
+
+/* Customer Comment Styles */
+
+#comments {
+    width: 75%;
+    margin: 40px auto;
+}
+
+#comments li {
+    display: block;
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#comments li img {
+    display: block;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#comments li p {
+    float: left;
+    width: 70%;
+}
+
+/* Footer Styles */
+
+footer {
+    clear: both;
+}
+
